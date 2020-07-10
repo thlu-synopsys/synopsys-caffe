@@ -16,6 +16,6 @@ wget -c http://dl.caffe.berkeleyvision.org/caffe_ilsvrc12.tar.gz
 
 echo "Unzipping..."
 
-tar -xf caffe_ilsvrc12.tar.gz && rm -f caffe_ilsvrc12.tar.gz
+tar -xzf caffe_ilsvrc12.tar.gz && rm -f caffe_ilsvrc12.tar.gz
 
 echo "Done."
